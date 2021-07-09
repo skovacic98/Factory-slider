@@ -1,0 +1,23 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+.nested{
+    display:grid;
+    grid-template-columns: repeat(5, auto);
+    gap: 5px;
+}
+
+.nested >div{
+    border: 2px solid black;
+}
+
+.title{
+    color:royalblue;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
